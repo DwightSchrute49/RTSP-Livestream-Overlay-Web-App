@@ -15,7 +15,7 @@ try:
     client.admin.command("ping")
     print(" MongoDB connected successfully")
 except Exception as e:
-    print("❌ MongoDB connection failed")
+    print(" MongoDB connection failed")
     print(e)
     sys.exit(1)
 
