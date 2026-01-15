@@ -1,5 +1,7 @@
 # RTSP Livestream Overlay Web Application
 
+**Author:** Siddhartha Singh
+
 This project is a web application that plays a livestream video from an RTSP source and allows users to create, manage, and display custom overlays on top of the video in real time.
 
 The application converts RTSP streams to an HLS-compatible format for browser playback and provides full CRUD APIs for overlay management with persistent storage using MongoDB.
@@ -65,7 +67,7 @@ python app.py
 
 Expected output:
 
-MongoDB connected successfully
+MongoDB connected successfully  
 Running on http://127.0.0.1:5000
 
 ---
@@ -99,8 +101,8 @@ http://localhost:5173
 3. Add a video file
 4. Click Stream → Next
 5. Choose RTSP as destination
-6. Set:
-   Port: 8554
+6. Set:  
+   Port: 8554  
    Path: /stream
 7. Select profile: Video - H.264 + MP3 (MP4)
 8. Click Stream
